@@ -7,12 +7,15 @@
 
 
 /* PAGINA QUEM SOMOS */
-#quem-somos figure img{
-    height: 100px;
 
+#quem-somos figure img{
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    
 }
 
-#quem-somos h3{
+#quem-somos h2{
     margin: 0 0 10px 0;
     text-align: center;
     
@@ -21,11 +24,17 @@
 #quem-somos p{
     margin: 0;
     text-align: center;
+    align-items: center;
 }
 
-#quem-somos{
+#div_quem__somos{
     height: 360px;
-    background-color: lightgrey; 
+
+    background-color: lightgrey;
+    
+    text-align: center;
+    
+
 }
 
 #quem-somos article{
@@ -35,6 +44,10 @@
     border: black 1px solid;
     margin-top: 25px;
     text-align: center;
+    align-items: center;
+    
+    
+    
 }
 /* ------------------------------------------ */
 

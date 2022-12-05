@@ -5,36 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbearia dos guri</title>
-    <link rel="stylesheet" href="style-index.css">
+    <link rel="stylesheet" href="css/style-index.css">
+    <link rel="stylesheet" href="css/header-footer.css">
 </head>
 <body>
     <header>
-        <div>
-            <a href="index.html">
-                <img id="logo-image" src="imagens/logo.png" alt="logo">
-            </a>
+        <div class="div-header">
+            <a class="h1" href="index.html">Os Guri Barber</a>
+            
+            <img id="logo" src="imagens/Barbearia.png" alt="">
+            <!-- <h1>Os Guri Barber </h1> -->
           
-            <nav>
-
-                <a id="horarios" href="meus-horarios.html">Meus horários</a>
-                <a id="login" href="login.html">Login</a>
-                <a id="cadastro" href="cadastro.html">Cadastro</a>
+            <nav class="nav_header">
+                <ul>
+                    <li> <a id="horarios" href="meus-horarios.html">Meus horários</a> </li>
+                    <li> <a id="login" href="login.html">Login</a> </li>
+                    <li> <a id="cadastro" href="cadastro.html">Cadastro</a></li>
+                </ul>
+            
             </nav>
 
         </div>
         
     </header>
 
-    <div id="div-nav">
-        <nav>
+    <div class="div_menus">
+        <nav class="nav_menus">
             <ul>
-                <li><a href="#serviços">Serviçossss</a></li>
+                <li><a href="#serviços">Serviços</a></li>
                 <li><a href="cortes.html">Cortes</a></li>
                 <li><a href="#quem-somos">Quem Somos</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
     </div>
+    
 
     
     <section id="agendar-horario">
@@ -60,7 +65,7 @@
             <article>
                 <h3>Barba</h3>  
                 <figure>
-                    <img class ="img" src="imagens/barba.png" width="150" height="175">  
+                    <img class="img" src="imagens/barba.png" width="150" height="175">  
                 </figure>
                 
                 <a href="#">Link galeria</a>
@@ -100,6 +105,7 @@
                 <h3>Vitor Scherer</h3>
                 <p>
                     <a href="#">@vitor-sherer</a>
+                    <br>
                     Barbeiro a 2 anos
                 </p>
 
@@ -126,6 +132,7 @@
                 <h3>Lauro Fraga</h3>
                 <p>
                     <a href="#">@lauro-fraga</a>
+                    <br>
                     Barbeiro a 3 anos
                 </p>
             </article>
@@ -138,6 +145,7 @@
                 <h3>Luan Araujo</h3>
                 <p>
                     <a href="#">@luan-araujo</a>
+                    <br>
                     Barbeiro a 1,2 anos
                 </p>
             </article>
@@ -148,32 +156,37 @@
 
 
     <footer>
-        <div id="redes">
+        <section id="redes">
             <h2>Siga Nós</h2> <br>
-            <a href="#">Instagram</a> <br>
-            <a href="#">Facebook</a> <br>
-            <a href="#">Youtube</a>
-        </div>
-        
-        <br>
 
-        <div id="localização">
+            <nav>
+                <ul>
+                    <li> <a href="#">Instagram</a> </li>
+                    <li> <a href="#">Facebook</a> </li>
+                    <li> <a href="#">Youtube</a> </li>
+                </ul>
+            
+            </nav>
+
+        </section>
+
+
+        <section id="localizacao">
             <h2>Localização</h2> <br>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3131939.4131176537!2d-90.4970032!3d39.951799099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88135512e7397459%3A0xe2e1d2e6b87ec3c3!2sBoone%20Village%20Barber%20Shop!5e0!3m2!1spt-BR!2sbr!4v1669139880098!5m2!1spt-BR!2sbr" width="600" height="250" style="border:0;" allowfullscreen="" 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3131939.4131176537!2d-90.4970032!3d39.951799099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88135512e7397459%3A0xe2e1d2e6b87ec3c3!2sBoone%20Village%20Barber%20Shop!5e0!3m2!1spt-BR!2sbr!4v1669139880098!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" 
             loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
 
-        <br>
+        </section>
 
-        <div id="noticias">
+
+        <section id="noticias">
             <h2>Newsletter</h2>
             <form action="">
                 <label for="nome">Email:</label>
                 <input type="email" name="" id="">
                 <input type="submit">
-                
             </form>
-        </div>
+        </section>
     </footer>
     
 </body>

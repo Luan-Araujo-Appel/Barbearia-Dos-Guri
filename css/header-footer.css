@@ -7,6 +7,10 @@ header {
     height: 100px;
 }
 
+h2{
+    font-family: 'Oswald', sans-serif;
+}
+
 #logo{
     width: 300px;
     height: 80px;

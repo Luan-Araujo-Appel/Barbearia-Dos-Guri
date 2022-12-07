@@ -2,19 +2,37 @@
     margin: 0;
 }
 
+#div-login{
+    width: 100%;
+    height: 500px;
+    background-color: lightgray;
+    /* background-image: url("Imagens/fundo-login2.jpg"); */
+    /* background-size: 100%; */
+    /* background-repeat: no-repeat; */
+}
+
 #email{
     width: 100%;
-    height: 350px;
-    background-color: lightgrey;
+    height: 250px;
     text-align: center;  
+
 }
 
 #senha{
     width: 100%;
-    height: 400px;
-    background-color: lightgreen;
+    height: 250px;
     text-align: center;  
-    padding-top: 50px;
-    padding-bottom: 50px;
     
+}
+
+h2{
+    padding-top: 5%;
+}
+
+input{
+    width: 300px;
+    border: 0 none;
+    outline: 0;
+    border-bottom: 2px solid gray;
+    background-color: lightgray;
 }

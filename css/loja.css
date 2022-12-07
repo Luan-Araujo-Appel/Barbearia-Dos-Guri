@@ -1,0 +1,90 @@
+*{
+	margin: 0 auto;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+#fundo-loja{
+	
+	background-image: url("imagens/loja/fundo-loja.png")
+	background-size: 100%;   
+	width:100%
+	height:600px;
+
+
+
+}
+
+#fundo-loja h1{
+	font-size:32px;
+	text-align: center;
+	margin-bottom: 20px;
+
+
+}
+
+.links{
+	height: 200px;
+
+}
+
+.links ul{
+	padding: 0;
+	display: table;
+
+}
+.links li{
+
+	
+	display: table-cell;
+	text-align: center;
+	width:250px;
+	vertical-align: middle;
+	border
+}
+.links  a {
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+}
+
+.link li: hover{
+	border-bottom:thin; 
+	border-style: solid;
+	border-color: #000;
+}
+
+.titulo h2{
+	font-size:45px;
+	text-align: left;
+	margin-left: 100px;
+	margin-bottom: 50px;
+	margin-bottom: 50px;
+
+}
+
+
+.produtos ul li {
+	display:inline-block;
+	width: 300px;
+	height: 200px;
+	margin-left:35px;
+	margin-right: 35px;
+
+
+}
+.produtos img {
+	 width: 200px;
+	 height: 200px;
+
+
+}
+
+.preço{
+	text-transform: uppercase;
+	color: #eead2d;
+
+
+}

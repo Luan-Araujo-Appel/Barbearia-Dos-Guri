@@ -9,6 +9,7 @@ header {
 
 h2{
     font-family: 'Oswald', sans-serif;
+
 }
 
 #logo{
@@ -130,31 +131,57 @@ h2{
 
 footer{
     width: 100%;
-    background-color: aqua;
+    background-color:black;
     height: 300px;
-
+    
 }
 
 #localizacao{
     width: 500px;
     height: 250px;
-    margin-left: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
 }
 
 #localizacao iframe{
     width: 500px;
-    height: 200px;
+    height: 150px;
 
 }
 #redes{
     float: left;
     text-align: left;
+    padding-left: 70px;
+    padding-right: 100px;
+    
+}
+
+footer h2, label{
+    color: white;
+}
+
+#redes ul{
+    list-style:none;
+    padding-left: 20px;
+    color: white;
+
+}
+
+#redes h2{
+    padding-left: 40px;
+}
+
+#redes ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 #noticias{
     width: 25%;
-    height: 50px;
-    background-color: blue;
+    height: 100px;
     float: right;
    
 }
@@ -163,4 +190,5 @@ footer section{
     float: left;
     text-align: center;
     align-items: center;
+    margin-top: 40px;
 }

@@ -20,7 +20,7 @@
         <div class="div-header">
             <a class="h1" href="index.html">Os Guri Barber</a>
             
-            <img id="logo" src="imagens/Barbearia.png" alt="">
+            <img id="logo" src="imagens/Barbearia.png" alt="logo">
            
           
             <nav class="nav_header">
@@ -38,26 +38,27 @@
 
     
 
-    <div id="div-login">
-        <section id="email" method="post">
+    <section id="div-login">
+        <form name="formulario-login" action="login.php" method="post" id="dados-login" >
+            <div id="email">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email-login" required >
+            </div>
             
-            <h2>Email</h2>
 
-            <br>
+            <div  id="senha">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha-login" required >
+                <input type="submit" id="submit-login" name="submit-login">
+            </div >
 
-            <input type="email" name="email" id="email-login" required >
-        </section>
-        
 
-        <section id="senha">
-            <h2>Senha</h2>
-            <br>
-            <input type="password" name="senha" id="senha-login" required >
-        </section>
-    </div>
+        </form>
+
+    </section>
 
     <footer>
-        <section id="redes">
+        <div id="redes">
             <h2>Siga Nós</h2> <br>
 
             <nav>
@@ -69,26 +70,26 @@
             
             </nav>
 
-        </section>
+        </div>
 
 
-        <section id="localizacao">
+        <div id="localizacao">
             <h2>Localização</h2> <br>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3131939.4131176537!2d-90.4970032!3d39.951799099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88135512e7397459%3A0xe2e1d2e6b87ec3c3!2sBoone%20Village%20Barber%20Shop!5e0!3m2!1spt-BR!2sbr!4v1669139880098!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" 
             loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-        </section>
+        </div>
 
    
-        <section id="noticias">
+        <div id="noticias">
             <h2>Newsletter</h2>
-            <form action="">
+            <form action="noticias.php">
                 
-                <input type="email" name="" id="" placeholder="Email">
+                <input type="email" name="newslatter" id="newslatter" placeholder="Email">
 
                 <input type="submit">
             </form>
-        </section>
+        </div>
     </footer>
 
 

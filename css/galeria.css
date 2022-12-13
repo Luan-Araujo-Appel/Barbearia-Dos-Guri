@@ -6,15 +6,18 @@
 }
 
 
-
+h1 {
+	text-align: center;
+	font-size: 65px;
 }
 
-.titulo h2{
-	font-size:45px;
+
+.titulo h2 {
+	font-size:40px;
 	text-align: left;
-	margin-left: 100px;
+	margin-left: 5%;
 	margin-bottom: 50px;
-	margin-bottom: 50px;
+	
 
 }
 
@@ -25,9 +28,10 @@
 	height: 200px;
 	margin-left:35px;
 	margin-right: 35px;
+	margin-bottom: 35px;
 
 
 }
-.produtos img {
+.img {
 	 width: 200px;
 	 height: 200px;
